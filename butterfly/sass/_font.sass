@@ -25,6 +25,10 @@ $weights: (ExtraLight 100) (Light 300) (Regular 400) (Medium 500) (Semibold 600)
     src: url("/static/fonts/SourceCodePro-#{$weight_name}.otf") format("woff")
     font-weight: nth($weight, 2)
 
+@font-face
+  font-family: "PragmataPro"
+  src: url("/static/fonts/PragmataPro.ttf")
+
 body
-  font-family: "SourceCodePro"
+  font-family: PragmataPro, SourceCodePro, Consolas, IPAMonaPGothic, Monapo, Mona, 'MS PGothic'
   line-height: 1.2
